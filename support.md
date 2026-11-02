@@ -2,7 +2,7 @@
 
 # Glimpse — Support
 
-_Last updated: 2026-10-31_
+_Last updated: 2026-11-02_
 
 Glimpse is a family photo party game: one phone hosts, everyone else plays from their phone's browser on the same Wi-Fi. This page is the place to ask questions or report problems.
 
@@ -29,7 +29,7 @@ Because the app does not transmit any data, there are no server-side logs we can
 2. Mirror the host phone to the TV.
 3. Everyone scans the QR code on the TV and picks a nickname.
 4. Once 3 players have joined, the host picks the first storyteller (or turns on the automatic storyteller and taps **Start game**).
-5. The storyteller picks one of 25 photos on their phone and says one word about it. The others vote for it among 6 photos.
+5. The storyteller looks at 25 photos on their phone, chooses one in their head, **says one word about it out loud, and only then taps it**. The others vote for it among 6 photos. (Why the word first: with the other 5 in view, finding a word that fits only yours is too easy.)
 6. The storyteller shows the votes and reveals the answer from their phone, then starts the next round.
 
 ### How does scoring work?
@@ -56,6 +56,14 @@ No. Any phone with a web browser works: Safari, Chrome, Samsung Internet, and so
 - **iPhone or iPad:** Control Center → **Screen Mirroring**, then pick your Apple TV or AirPlay TV.
 - **No casting?** Under the QR code, the Join panel shows a TV address ending in `/tv`. Open it in the TV's web browser (or on a laptop connected to the TV) for a full-screen copy of the game.
 - If the TV's browser says the address is unreachable while other devices can open it, the router may be keeping wired and wireless devices apart. Check that the TV is on the same network, not a guest network.
+
+### Can the host play too?
+
+Yes. On the host phone, tap **Play**: the phone becomes a player's phone, and **Host** brings the host screen back. While you play, show the game on the TV through its `/tv` address (in the TV's browser) rather than by mirroring, otherwise everyone sees your pictures and votes.
+
+### Is there a guide in the app?
+
+Yes. Tap **?** on the host phone for how to host and play. Players tap **?** (or **How to play** on the join screen) on their phone for the rules and scoring.
 
 ### Does the app have to stay open?
 

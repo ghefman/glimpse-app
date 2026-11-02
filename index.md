@@ -26,9 +26,9 @@ description: A family photo party game. One phone hosts, everyone else plays fro
 ## How it plays
 
 1. **Add photos** on the host phone: family trips, old albums, anything. 25 photos or more is best.
-2. **Mirror the phone to the TV** (AirPlay, Chromecast), or open the TV address in the TV's browser.
+2. **Mirror the phone to the TV** (AirPlay screen mirroring), or open the TV address in the TV's browser.
 3. **Everyone scans the QR code** on the TV and picks a nickname. No app needed, any phone browser works.
-4. **The storyteller** secretly picks one of 25 photos on their phone and says a single word about it.
+4. **The storyteller** secretly chooses one of 25 photos on their phone, says a single word about it out loud, and only then taps it.
 5. **The others find it** among 6 photos on the TV and vote from their phones.
 6. **Points**: if some players find it, they and the storyteller score. If everyone finds it, the word was too easy.
 7. **The storyteller** role moves to the next player.
