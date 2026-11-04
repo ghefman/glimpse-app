@@ -24,11 +24,11 @@
 <meta name="twitter:image" content="https://ghefman.github.io/glimpse-app/app-icon-200.png">
 <script>
 (function () {
-  // STORE LINKS: replace the placeholders once the app is live (also in ../index.md).
-  // Until then, a placeholder link is skipped and the visitor goes to the site.
-  var IOS     = 'https://apps.apple.com/app/idAPP_STORE_ID';
+  // STORE LINKS (also in ../index.md). App Store: live. Google Play: not yet; until
+  // ANDROID_LIVE, Android visitors go to the site.
+  var IOS     = 'https://apps.apple.com/app/id6829610759';
   var ANDROID = 'https://play.google.com/store/apps/details?id=com.deltawebos.glimpse';
-  var ANDROID_LIVE = false;   // set to true once Glimpse is published on Google Play
+  var ANDROID_LIVE = false;   // true once Glimpse is on Google Play; also remove `hidden` from its button below
   var SITE    = '../';
 
   if (/APP_STORE_ID/.test(IOS)) IOS = SITE;
@@ -134,9 +134,9 @@
     <img class="icon" src="../app-icon-200.png" alt="">
     <h1>Glimpse</h1>
     <p>Taking you to the store&hellip;</p>
-    <!-- STORE LINKS: same placeholders as the script above -->
-    <a class="btn" href="https://apps.apple.com/app/idAPP_STORE_ID">App Store &mdash; iPhone &amp; iPad</a>
-    <a class="btn secondary" href="https://play.google.com/store/apps/details?id=com.deltawebos.glimpse">Google Play &mdash; Android</a>
+    <!-- STORE LINKS: same as the script above -->
+    <a class="btn" href="https://apps.apple.com/app/id6829610759">App Store &mdash; iPhone &amp; iPad</a>
+    <a class="btn secondary" id="playBtn" href="https://play.google.com/store/apps/details?id=com.deltawebos.glimpse" hidden>Google Play &mdash; Android</a>
     <a class="more" href="../">Read more about the game</a>
   </main>
 </body>

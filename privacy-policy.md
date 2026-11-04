@@ -2,7 +2,7 @@
 
 # Privacy Policy — Glimpse
 
-_Last updated: 2026-10-31_
+_Last updated: 2026-11-03_
 
 Glimpse ("the app") is published by **DeltaWebOS**. This page explains what data the app handles and what it does with it.
 
@@ -10,14 +10,14 @@ Glimpse ("the app") is published by **DeltaWebOS**. This page explains what data
 
 **Glimpse does not collect, transmit, store, or share any data about you with us or with anyone else.**
 
-The app makes no connection to the internet. It runs the game on your local Wi-Fi network: the other players' phones connect directly to the host phone, and nothing goes through a server of ours or of anyone else.
+The game runs on your local Wi-Fi network: the other players' phones connect directly to the host phone, and nothing goes through a server of ours or of anyone else. The app's only connection to the internet is a check for app updates, described below; it carries no photos, nicknames, scores, or anything else about you or your game.
 
 ## How the game works on your network
 
 When you start a game, the host phone runs a small web server that can be reached only on your local network (your Wi-Fi). Players open its address, shown on screen and as a QR code, in their phone's browser.
 
 - The game, including the photos you added, is shown only to devices on the same network that open that address.
-- Nothing is sent to the internet. The app contains no analytics, no advertising, no crash reporting, and no online service.
+- Nothing from the game is sent to the internet. The app contains no analytics, no advertising, and no crash reporting.
 - When you close the app, the game server stops.
 
 Anyone on the same Wi-Fi who opens the game address can see the photos in the game, just like anyone in the room can see the TV. Only add photos you are happy to show the people you are playing with.
@@ -30,7 +30,7 @@ You choose which photos join the game, using the system photo picker. The app:
 2. Keeps the photo's original file name, date, and size, so you can sort the list.
 3. Never changes or deletes anything in your photo library.
 
-Removing a photo in the app (✕ or **Clear all**) deletes the app's copy only. Deleting the app deletes all of its copies.
+Removing a photo in the app (✕ or **Clear all**) deletes the app's copy only. If the photo is on the table in the round being played, its copy is kept until the next time the app starts, so the round can finish. Deleting the app deletes all of its copies.
 
 ## What stays on the devices
 
@@ -45,9 +45,27 @@ Removing a photo in the app (✕ or **Clear all**) deletes the app's copy only. 
 
 The app **does not** request access to the camera, microphone, location, contacts, calendars, or health data, and it does not use notifications or background activity.
 
+## App update check
+
+Glimpse is built with the Expo framework, which can deliver bug-fix updates to the app without a new App Store download. To find them, the app contacts Expo's update server (`u.expo.dev`):
+
+- when the app starts, if the phone is connected to the internet, and
+- when you tap **Check for updates** in ☰ → **About**.
+
+The request includes only technical information about the app:
+
+- the app's project identifier on Expo's build service;
+- the app's runtime version and update channel (which updates fit this build);
+- the platform and its version (for example iOS 26);
+- a random install identifier created by the framework on the phone. It is not the Apple advertising identifier, it is not linked to your Apple account, and it is replaced if you reinstall the app.
+
+It never includes your photos, nicknames, scores, or anything you typed. The answer is either "no update" (the usual case) or a new version of the app's code, which the app offers to restart into.
+
+Without internet access the check simply fails, and the game works as before.
+
 ## Third-party services
 
-None. The app contains no third-party analytics, advertising, crash-reporting, or tracking services, and it does not load anything from the internet.
+The app contains no third-party analytics, advertising, crash-reporting, or tracking services. The only third party it contacts is Expo, for the update check above. Expo's privacy policy is at <https://expo.dev/privacy>.
 
 ## Children
 
@@ -67,7 +85,7 @@ Questions or concerns:
 
 ## Verifying these claims yourself
 
-Privacy promises are easy to make. You can check this one: turn off mobile data on the host phone and disconnect your Wi-Fi router from the internet (or play on a Wi-Fi network with no internet access). The whole game keeps working, because it never needed the internet in the first place.
+Privacy promises are easy to make. You can check this one: turn off mobile data on the host phone and disconnect your Wi-Fi router from the internet (or play on a Wi-Fi network with no internet access). The whole game keeps working, because it never needed the internet in the first place; only the update check fails, silently.
 
 ---
 

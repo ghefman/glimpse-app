@@ -93,7 +93,7 @@ The host app is available for **iPhone and iPad** on the App Store. Players can 
 
 The full privacy policy is here: [Privacy Policy](privacy-policy.md)
 
-Short version: the app does not collect, transmit, store, or share any data. It never connects to the internet; the game runs only on your Wi-Fi.
+Short version: the app does not collect, transmit, store, or share any data. The game runs only on your Wi-Fi; the app's only connection to the internet is a check for app updates.
 
 ---
 
