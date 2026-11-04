@@ -39,7 +39,7 @@ description: A family photo party game. One phone hosts, everyone else plays fro
 
 - One phone or tablet running Glimpse (the host).
 - 3 or more players, each with any phone with a web browser.
-- Everyone on the same Wi-Fi.
+- Everyone on the same Wi-Fi, or (in iPhone only) on the host phone's Personal Hotspot.
 - A TV is optional but more fun: screen mirroring, or the TV's own browser.
 
 ## Private by design

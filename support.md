@@ -46,10 +46,18 @@ No. Any phone with a web browser works: Safari, Chrome, Samsung Internet, and so
 
 ### A player can't open the game page
 
-- Make sure their phone is on the **same Wi-Fi** as the host, not on mobile data or a guest network.
+- Make sure their phone is on the **same Wi-Fi** as the host (or on the host phone's Personal Hotspot), not on mobile data or a guest network.
 - Guest networks and some public or office networks block devices from talking to each other ("client isolation" or "AP isolation"). Use your main home network, or turn that setting off in your router.
 - On the host iPhone or iPad, check **Settings → Privacy & Security → Local Network → Glimpse** is on.
 - Make sure the Glimpse app is open on the host phone, not in the background.
+
+### Can we play without Wi-Fi?
+
+Yes. On the host iPhone, turn on **Settings → Personal Hotspot → Allow Others to Join**, and have the other players join that hotspot in their Wi-Fi settings. Keep the Personal Hotspot screen open on the host phone while they join, then open Glimpse: the QR code works as usual.
+
+- Some iPhones allow only about 5 devices on a hotspot.
+- The game itself uses no mobile data: the phones talk only to the host phone. (Players' phones may still use the hotspot's internet for other things, which does use the host's data plan.)
+- To show the game on a TV, the TV (or Apple TV) usually has to join the hotspot too, for screen mirroring or for the TV address.
 
 ### How do I show the game on the TV?
 

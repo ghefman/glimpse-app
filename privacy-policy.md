@@ -2,7 +2,7 @@
 
 # Privacy Policy — Glimpse
 
-_Last updated: 2026-11-03_
+_Last updated: 2026-11-04_
 
 Glimpse ("the app") is published by **DeltaWebOS**. This page explains what data the app handles and what it does with it.
 
@@ -10,7 +10,7 @@ Glimpse ("the app") is published by **DeltaWebOS**. This page explains what data
 
 **Glimpse does not collect, transmit, store, or share any data about you with us or with anyone else.**
 
-The game runs on your local Wi-Fi network: the other players' phones connect directly to the host phone, and nothing goes through a server of ours or of anyone else. The app's only connection to the internet is a check for app updates, described below; it carries no photos, nicknames, scores, or anything else about you or your game.
+The game runs on your local Wi-Fi network (or the host phone's Personal Hotspot): the other players' phones connect directly to the host phone, and nothing goes through a server of ours or of anyone else. The app's only connection to the internet is a check for app updates, described below; it carries no photos, nicknames, scores, or anything else about you or your game.
 
 ## How the game works on your network
 
@@ -40,14 +40,14 @@ Removing a photo in the app (✕ or **Clear all**) deletes the app's copy only. 
 
 ## Permissions we request
 
-- **Photos:** to let you choose photos for the game. On iPhone and iPad, the system picker shows your library, and only the photos you pick are shared with the app.
-- **Local Network:** so players' phones on your Wi-Fi can reach the game.
+- **Photos:** to let you choose photos for the game. The system photo picker shows your library (on iPhone, iPad and Android), and only the photos you pick are shared with the app.
+- **Local Network:** so players' phones on your Wi-Fi (or the host phone's Personal Hotspot) can reach the game.
 
 The app **does not** request access to the camera, microphone, location, contacts, calendars, or health data, and it does not use notifications or background activity.
 
 ## App update check
 
-Glimpse is built with the Expo framework, which can deliver bug-fix updates to the app without a new App Store download. To find them, the app contacts Expo's update server (`u.expo.dev`):
+Glimpse is built with the Expo framework, which can deliver bug-fix updates to the app without a new download from the App Store or Google Play. To find them, the app contacts Expo's update server (`u.expo.dev`):
 
 - when the app starts, if the phone is connected to the internet, and
 - when you tap **Check for updates** in ☰ → **About**.
@@ -56,8 +56,8 @@ The request includes only technical information about the app:
 
 - the app's project identifier on Expo's build service;
 - the app's runtime version and update channel (which updates fit this build);
-- the platform and its version (for example iOS 26);
-- a random install identifier created by the framework on the phone. It is not the Apple advertising identifier, it is not linked to your Apple account, and it is replaced if you reinstall the app.
+- the platform and its version (for example iOS 26 or Android 16);
+- a random install identifier created by the framework on the phone. It is not the Apple or Google advertising identifier, it is not linked to your Apple or Google account, and it is replaced if you reinstall the app.
 
 It never includes your photos, nicknames, scores, or anything you typed. The answer is either "no update" (the usual case) or a new version of the app's code, which the app offers to restart into.
 
